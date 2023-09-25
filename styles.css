@@ -20,9 +20,9 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #007bff;
-    color: #fff;
-    padding: 20px 0;
+    background-color: rgb(95, 155, 206);
+    color: #333;
+    padding: 20px 10px;
 }
 
 .menu-toggle {
@@ -46,7 +46,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #333;
     font-weight: bold;
 }
 
