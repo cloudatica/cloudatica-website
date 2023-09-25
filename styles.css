@@ -23,6 +23,7 @@ header {
     background-color: rgb(95, 155, 206);
     color: #333;
     padding: 20px 10px;
+    font-weight: bold;
 }
 
 .menu-toggle {
@@ -53,7 +54,7 @@ nav ul li a {
 /* Hero Section Styles */
 #hero {
     text-align: center;
-    padding: 100px 0;
+    padding: 100px 10px;
 }
 
 #hero h1 {
@@ -67,7 +68,7 @@ nav ul li a {
 }
 
 .cta-button {
-    background-color: #007bff;
+    background-color: rgb(95, 155, 206);
     color: #fff;
     font-size: 24px;
     padding: 10px 20px;
