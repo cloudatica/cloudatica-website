@@ -20,7 +20,7 @@
     .container {
       display: flex;
       flex-wrap: wrap;
-      max-width: 1200px;
+      //max-width: 1200px;
       margin: 0 auto;
       padding: 20px;
     }
@@ -92,9 +92,26 @@
     @media (max-width: 768px) {
       .container {
         flex-direction: column;
+        padding: 0px;
       }
+      .hero-text {
+        border: none;
+        width: 100%;
+      }
+
+      .hero-text h1 {
+        font-size: 1.7em;
+      }
+
+      .hero-text p {
+        margin-top: 30px;
+        margin-bottom: 50px;
+      }
+
       .hero-image {
         order: 2; /* Display image below text on smaller screens */
+        margin-left: -20px;
+        margin-top: 80px;
       }
       .menu-icon {
         display: block; /* Show menu icon on smaller screens */
@@ -104,7 +121,18 @@
       .menu-content {
         display: block; /* Initially show menu items on smaller screens */
       }
+      .secondary
+      {
+        margin-left: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      section {
+        padding: 0px;
+      }
     }
+
   </style>
 </head>
 <body>
