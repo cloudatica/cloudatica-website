@@ -6,7 +6,7 @@ body, h1, h2, p {
 
 /* Global Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Poppins, sans-serif ;
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
@@ -14,16 +14,18 @@ body {
 
 .container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 20px;
 }
 
 /* Header Styles */
 header {
-    background-color: rgb(95, 155, 206);
-    color: #333;
-    padding: 20px 10px;
-    font-weight: bold;
+    font-family: Poppins, sans-serif;
+    background-color: #333;
+    color: white;
+    padding: 20px 20px;
+    font-size: 22px;
+
 }
 
 .menu-toggle {
@@ -47,19 +49,34 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
-    font-weight: bold;
+    color: white;
+    font-size: 16px;
 }
 
 /* Hero Section Styles */
 #hero {
-    text-align: center;
-    padding: 100px 10px;
+    text-align: left;
+    margin-left: 30px;
+    padding: 60px 10px;
+    display: inline-block;
+
+}
+
+#hero-text {
+    width: 50%;
+    display: inline-block;   
+}
+#hero-image {
+    width: 50%;
+    margin-left: 50%;  
+    display: inline-block; 
 }
 
 #hero h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 500;
+    margin: 45px 0 40px;
 }
 
 #hero p {
@@ -68,12 +85,13 @@ nav ul li a {
 }
 
 .cta-button {
-    background-color: rgb(95, 155, 206);
+    background-color: #4891FF;
     color: #fff;
     font-size: 24px;
     padding: 10px 20px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 10px;
+    margin-left: -5px;
 }
 
 .cta-button:hover {
@@ -82,7 +100,7 @@ nav ul li a {
 
 /* Sections Styles */
 section {
-    padding: 60px 0;
+    padding: 10px 0;
 }
 
 h2 {

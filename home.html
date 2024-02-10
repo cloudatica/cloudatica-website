@@ -1,14 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cloudatica - Power Platform Experts</title>
-    <link rel="stylesheet" href="styles.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cloudatica - Microsoft AI, CoPilot Studio, and Power Platform Experts</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    /* Basic styles */
+    body {
+      margin: 0;
+      font-family: Poppins, sans-serif ;
+      background-color: #fff;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .secondary
+    {
+        margin-left: 60px;
+        margin-bottom: 50px;
+        margin-top: 10px;
+    }
+    .hero-text {
+      flex: 1;
+      padding: 0px 20px;
+      font-size: 1.5em;
+      color: #333;
+      border-right: 1px solid #ccc;
+      margin-top: 30px;
+
+    }
+    .hero-text h1
+    {
+      font-weight: 400;
+      font-family: Poppins;
+      margin-top: -10px;
+      margin-bottom: 10px;
+    }
+    .hero-text p
+    {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .hero-image {
+      flex: 1;
+      max-height: 300px;
+      object-fit: contain;
+      margin-top: 50px;
+      margin-right: 10px;
+      margin-left: 30px;;
+      
+    }
+    
+    /* Menu styles */
+    .menu {
+      display: flex;
+      justify-content: space-between;
+      background-color: #ddd;
+      padding: 10px;
+    }
+    .menu-item {
+      padding: 10px;
+      text-decoration: none;
+      color: #333;
+    }
+    .menu-item:hover {
+      background-color: #eee;
+    }
+    .menu-icon {
+      display: none; /* Only visible on smaller screens */
+    }
+    
+    /* Collapsible menu */
+    .menu-content {
+      display: none;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease-in-out;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+      .hero-image {
+        order: 2; /* Display image below text on smaller screens */
+      }
+      .menu-icon {
+        display: block; /* Show menu icon on smaller screens */
+        font-size: 24px;
+        cursor: pointer;
+      }
+      .menu-content {
+        display: block; /* Initially show menu items on smaller screens */
+      }
+    }
+  </style>
 </head>
 <body>
     <header>
-        <div id="menu-toggle" class="menu-toggle">&#9776; Cloudatica</div>
+        <div id="menu-toggle" class="menu-toggle">&#9776; &nbsp;&nbsp;Cloudatica</div>
         <nav>
             <ul>
                 <li><a href="#about">About Us</a></li>
@@ -17,52 +118,70 @@
             </ul>
         </nav>
     </header>
+  <div class="container">
+    <div class="hero-text">
+      <h1>We are AI Strategy & Implementation experts</h1>
+      <p>Microsoft Copilot Studio | Azure | Power Platform</p>
+      <a href="mailto:hello@cloudatica.com" class="cta-button">Contact us</a>
+    </div>
+    <img src="hero-img.png" alt="Descriptive image alt text" class="hero-image">
     
-    <section id="hero">
-        <h1> Microsoft Copilot (AI Stack) and Power Platform Experts</h1>
-        <p>Simplify your journey with our strategy and implementation expertise</p>
-        <a href="mailto:hello@cloudatica.com" class="cta-button">Contact us</a>
-    </section>
+</div>
+    <div>
+        <br>
+        <br>
+        <br>
+    </div>
+  <section id="about">
+    <div class=" secondary">
+        <h2>About Us</h2>
+        <p>We are a team of former Microsoft, Meta, and other FAANG company employees 
+            with expertise in AI, Digital Transformation, Cloud, Low Code/ No Code strategy and implementation. 
+        </p>
+        <br>
+        <p>
+            We can help you in the strategy formulation and / or implementation leveraging Microsoft tech stack - CoPilot Studio,
+            Azure AI, Azure Bot Framework, PowerApps, Power Automate (Flow), Copilot Studio (aka Power Virtual Agent) etc.
+        </p>
+    </div>
+</section>
 
-    <section id="about">
-        <div class="container">
-            <h2>About Us</h2>
-            <p>We are a team of former Microsoft, Meta, and other FAANG company employees 
-                with expertise in AI, Digital Transformation, Cloud, Low Code/ No Code strategy and implementation. 
-            </p>
-            <br>
-            <p>
-                We can help you in the strategy formulation and / or implementation leveraging Microsoft tech stack - CoPilot Studio,
-                Azure AI, Azure Bot Framework, PowerApps, Power Automate (Flow), Copilot Studio (aka Power Virtual Agent) etc.
-            </p>
-        </div>
-    </section>
+<section id="services">
+    <div class="secondary">
+        <h2>Our Services</h2>
+        <p></p>
+        <p>We offer a range of services, including:</p>
+        <ul>
+            <li> Strategy formulation - AI, Digital Transformation </li>
+            <li> Implementation Projects - Microsft AI, CoPilot Studio, Power Platform </li>
+            <li> Training </li>
+            <li> 1:1 Coaching </li>
+        </ul>
+    </div>
+</section>
 
-    <section id="services">
-        <div class="container">
-            <h2>Our Services</h2>
-            <p>We offer a range of services, including:</p>
-            <ul>
-                <li> Strategy formulation - AI, Digital Transformation </li>
-                <li> Implementation Projects - Microsft AI, CoPilot Studio, Power Platform </li>
-                <li> Training </li>
-                <li> 1:1 Coaching </li>
-            </ul>
-        </div>
-    </section>
+<section id="contact">
+    <div class=" secondary">
+        <h2>Contact Us</h2>
+        <p>Ready to supercharge your business with Micosoft AI, Copilot, or Power Platform? 
+        <a href="mailto:hello@cloudatica.com" >Contact us today!</a> </p>
+    </div>
+</section>
 
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <p>Ready to supercharge your business with Micosoft AI, Copilot, or Power Platform? 
-            <a href="mailto:hello@cloudatica.com" >Contact us today!</a> </p>
-        </div>
-    </section>
+<footer>
+    <p>&copy; 2024 Cloudatica. All rights reserved.</p>
+</footer>
 
-    <footer>
-        <p>&copy; 2024 Cloudatica. All rights reserved.</p>
-    </footer>
 
-    <script src="script.js"></script>
+  <script src="script.js"></script>
+
+  <script>
+    const menuIcon = document.querySelector('.menu-icon');
+    const menuContent = document.querySelector('.menu-content');
+
+    menuIcon.addEventListener('click', () => {
+      menuContent.classList.toggle('active');
+    });
+  </script>
 </body>
 </html>
