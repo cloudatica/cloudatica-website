@@ -125,6 +125,8 @@ footer {
 @media (max-width: 992px) {
     body{
         width: 100%;
+
+        
     }
     nav ul li {
         display: block;
@@ -140,7 +142,7 @@ footer {
         width: 110%;
     }
     footer {
-        width: 800px;
+        width: 120%;
         text-align: left;
         padding-left: 20px;
         margin-top: 50px;
